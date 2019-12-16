@@ -1,0 +1,117 @@
+/*Whole*/
+body {
+    font-family: 'Roboto';
+    background-color:#e8ded9;
+    border: 15 px;
+    height: 100%;
+    margin: 25px;
+    padding: 25px;
+    width: 100%;
+    max-width: width 1200px;
+    list-style-type:none;
+}
+/*Learn to Code*/
+header {
+    font-size: 34px;
+    position: left;
+}
+/*Code in header and learning to code later*/
+mark{
+    color:#61c386;
+    background-color: none;
+}
+
+/*A link that has not been visited*/
+a:link {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #5b8c6f;
+}
+/*A link that has been visited*/
+a:visited {
+    font-weight: 400;
+    text-decoration: none;
+    color: #5b8c6f;    
+}
+
+/*Contact Us*/ /*Learn More*/
+button {
+    text-align: center;
+    background-color:#61c386;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
+
+/*Do you think about learning to code?*/
+h1 {
+    font-weight: 600;
+}
+
+/*Learn to code and dev a new career*/
+h2 {
+    color: #5b8c6f;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/*Desktop below*/
+@media only screen and (min-width: 768px) {
+
+    body    {
+        background-color: #e8ded9;
+        background-image: url("code.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 800px 600px;
+        width: 100%;
+        height: 650px;
+        border: 5px;
+        background-attachment: scroll;
+            } 
+    
+    #header {
+        display:flex;
+        font-weight:300;
+        flex-direction:row;
+    }
+
+    .flex-container {
+            align-items: space-evenly;
+            margin-left: auto;
+                    }
+
+    .flex-container > div {
+        border: 1 px;
+        height: 10%;
+        margin: 1px;
+        padding: 10px;
+        width: 25%;
+       }
+
+    .header {
+        font-size: 12px;
+    }
+
+    ul  {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+    li  {
+        display:inline;
+        justify-content: end;
+        }
+
+    button {
+        width: auto;
+        text-emphasis-color: white;
+    }
+    button:hover {
+        text-emphasis-color: #61c386;
+        background-color: #f7e966;
+    }
+}
